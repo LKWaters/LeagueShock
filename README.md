@@ -31,7 +31,7 @@ For some reason I also decided to make the Read.py class one class and not split
 
 1. save allot of time copying and pasting similar code
 
-2.reduce the overall length of the class
+2. reduce the overall length of the class
 
 3. follow best practices
 
