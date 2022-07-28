@@ -3,7 +3,7 @@
 
 League of Legends is a multiplayer online battle arena video game and is a highly competitive, fast paced action-strategy game. one of the playable characters Thresh has four abilities, like every other character, and the goal was to track these abilities along with other information over the course of a game.
 
-To track this I used a tkinter interface to track game data in real time that was scraped screen shots of the game.
+To track this I used a tkinter interface to track game data in real time that was scraped from screen shots of the game.
 
 ![](https://i.gyazo.com/f262545fc7eac8524dcb0bc5c707d7e9.png)
 
