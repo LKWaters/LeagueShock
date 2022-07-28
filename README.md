@@ -1,7 +1,13 @@
-# LeagueShock
+# Pavlovs-Thresh
  Using image analysis to pull some info from League of Legends
 
 League of Legends is a multiplayer online battle arena video game and is a highly competitive, fast paced action-strategy game. one of the playable characters Thresh has four abilities, like every other character, and the goal was to track these abilities along with other information over the course of a game.
+
+To track this I used a tkinter interface to track game data in real time that was scraped screen shots of the game.
+
+![](https://i.gyazo.com/f262545fc7eac8524dcb0bc5c707d7e9.png)
+
+I can view all ability usage as well as the current level of those abilities and my health/mana over time. There is also an option to "enable shock."
 
 When an ability is used there is a certain amount of time that must pass before it can be used again and this number is displayed on the screen. By taking screenshots and then preforming some low level image processing one can obtain a 2d binary image of black (0) and white (255) based on the grayscale value after thresholding which can then be read by pytesseract. 
 
